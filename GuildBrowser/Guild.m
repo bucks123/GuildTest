@@ -19,7 +19,7 @@
         _achievementPoints = guildData[@"achievementPoints"];
         _level = guildData[@"level"];
 
-        // one entry per class type
+        // one entry per class type 1
         membersByClassTypeData = [[NSMutableDictionary alloc] initWithCapacity:12];
         
         // now create each character by getting the data of each character dictionary
