@@ -15,9 +15,9 @@
     
     STAssertEqualObjects(@"Warrior", [WoWUtils classFromCharacterType:1], @"ClassType should be Warrior");
     
-    STAssertFalse(@"Mage" isEqualToString:[WoWUtils classFromCharacterType:2], nil);
+    STAssertFalse([@"Mage" isEqualToString:[WoWUtils classFromCharacterType:2]], nil);
     
-    STAssertTrue(@"Paladine" isEqualToString:[WoWUtils classFromCharacterType:2], nil);
+    STAssertTrue([@"Paladine" isEqualToString:[WoWUtils classFromCharacterType:2]], nil);
     
     
 }

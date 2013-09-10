@@ -65,10 +65,21 @@
 		E05F1CF717DF0225006C19F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4115E9872D00B3713E /* Foundation.framework */; };
 		E05F1CFD17DF0225006C19F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E05F1CFB17DF0225006C19F9 /* InfoPlist.strings */; };
 		E05F1D0A17DF068A006C19F9 /* WowUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E05F1D0917DF068A006C19F9 /* WowUtilsTests.m */; };
+		E05F1D0B17DF63BE006C19F9 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD1715E9B34900B3713E /* Character.m */; };
+		E05F1D0C17DF63D6006C19F9 /* Guild.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD1F15E9B34900B3713E /* Guild.m */; };
+		E05F1D0D17DF63E2006C19F9 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD2315E9B34900B3713E /* Item.m */; };
+		E05F1D0E17DF63F2006C19F9 /* WoWUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD2B15E9B34900B3713E /* WoWUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		CB9FDC6115E9872E00B3713E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB9FDC3215E9872D00B3713E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB9FDC3A15E9872D00B3713E;
+			remoteInfo = GuildBrowser;
+		};
+		E05F1D0F17DF6416006C19F9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CB9FDC3215E9872D00B3713E /* Project object */;
 			proxyType = 1;
@@ -455,6 +466,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				E05F1D1017DF6416006C19F9 /* PBXTargetDependency */,
 			);
 			name = GuildBrowserLogicTests;
 			productName = GuildBrowserLogicTests;
@@ -609,6 +621,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E05F1D0E17DF63F2006C19F9 /* WoWUtils.m in Sources */,
+				E05F1D0D17DF63E2006C19F9 /* Item.m in Sources */,
+				E05F1D0C17DF63D6006C19F9 /* Guild.m in Sources */,
+				E05F1D0B17DF63BE006C19F9 /* Character.m in Sources */,
 				E05F1D0A17DF068A006C19F9 /* WowUtilsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -620,6 +636,11 @@
 			isa = PBXTargetDependency;
 			target = CB9FDC3A15E9872D00B3713E /* GuildBrowser */;
 			targetProxy = CB9FDC6115E9872E00B3713E /* PBXContainerItemProxy */;
+		};
+		E05F1D1017DF6416006C19F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB9FDC3A15E9872D00B3713E /* GuildBrowser */;
+			targetProxy = E05F1D0F17DF6416006C19F9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
