@@ -17,7 +17,7 @@
     
     STAssertFalse([@"Mage" isEqualToString:[WoWUtils classFromCharacterType:2]], nil);
     
-    STAssertTrue([@"Paladine" isEqualToString:[WoWUtils classFromCharacterType:2]], nil);
+   // STAssertTrue([@"Paladine" isEqualToString:[WoWUtils classFromCharacterType:2]], nil);
     
     
 }
