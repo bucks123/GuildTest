@@ -72,6 +72,7 @@
 		E05F1D1417DF71F8006C19F9 /* character.json in Resources */ = {isa = PBXBuildFile; fileRef = E05F1D1217DF71F8006C19F9 /* character.json */; };
 		E05F1D1517DF71F8006C19F9 /* guild.json in Resources */ = {isa = PBXBuildFile; fileRef = E05F1D1317DF71F8006C19F9 /* guild.json */; };
 		E05F1D1817E09259006C19F9 /* CharacterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E05F1D1717E09259006C19F9 /* CharacterTests.m */; };
+		E062FBD717E730C40033E5B7 /* kb_lesapps_test.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = E062FBD617E730C40033E5B7 /* kb_lesapps_test.mobileprovision */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -182,6 +183,7 @@
 		E05F1D1317DF71F8006C19F9 /* guild.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = guild.json; sourceTree = "<group>"; };
 		E05F1D1617E09259006C19F9 /* CharacterTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterTests.h; sourceTree = "<group>"; };
 		E05F1D1717E09259006C19F9 /* CharacterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterTests.m; sourceTree = "<group>"; };
+		E062FBD617E730C40033E5B7 /* kb_lesapps_test.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = kb_lesapps_test.mobileprovision; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +223,7 @@
 		CB9FDC3015E9872D00B3713E = {
 			isa = PBXGroup;
 			children = (
+				E062FBD617E730C40033E5B7 /* kb_lesapps_test.mobileprovision */,
 				CB9FDCEC15E9B31400B3713E /* images */,
 				CB9FDCC115E9A8DA00B3713E /* AFNetworking */,
 				CB9FDC4515E9872D00B3713E /* GuildBrowser */,
@@ -548,6 +551,7 @@
 				CB9FDD1315E9B31400B3713E /* profile_shield@2x.png in Resources */,
 				CB9FDD1415E9B31400B3713E /* toolbar.png in Resources */,
 				CB9FDD1515E9B31400B3713E /* toolbar@2x.png in Resources */,
+				E062FBD717E730C40033E5B7 /* kb_lesapps_test.mobileprovision in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -892,6 +896,7 @@
 				E05F1D0317DF0225006C19F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
